@@ -27,9 +27,9 @@ deploy:
   provider: heroku
   api_key:
     secure: de226378-f4c5-48fb-ba75-6b8e4cb5805f
-  app: test-my-travisci-project
+  app: lab4useheroku
   on:
-    repo: jimting/GitProjectTutorialExample
+    repo: f2212671555/lab4
   #Setting your heroku Procfile here!!!
   run:
     "web: gunicorn app_run:app"
